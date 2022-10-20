@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        
+        <title> Recuperar Contraseña </title>    
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Videojuegos & Desarrollo">
+        <meta name="description" content="Ejemplo de formulario de acceso basado en HTML5 y CSS">
+        <meta name="keywords" content="login,formulariode acceso html">
+        
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+        
+        
+        <link rel="stylesheet" href="/css/login1.css">
+        
+        <style type="text/css">
+            
+        </style>
+        
+        <script type="text/javascript">
+        
+        </script>
+        
+    </head>
+    
+    <body>
+    
+        <div id="contenedor">
+            
+            <div id="contenedorcentrado">
+                
+                <div id="login">
+                    <div class="titulo">
+                        Registro de restaurante
+                    </div>
+                    <p>Favor de llenar con su informacion</p>
+                    <form id="loginform">
+                       
+                
+                        <label for="usuario">Usuario</label>
+                        <input id="usuario" type="text" name="usuario" placeholder="Usuario" required>
+                        
+                        <label for="password">Contraseña</label>
+                        <input id="password" type="password" placeholder="Contraseña" name="password" required>
+
+                        <label for="passwordconf"> Confirmar Contraseña</label>
+                        <input id="passwordconf" type="password" placeholder=" confirmar Contraseña" name="password" required>
+
+                        <label for="Nombre">Nombre del restaurante</label>
+                        <input id="Nombre" type="text" name="Nombre" placeholder="Nombre" required>
+
+                        <label for="lugares">Numero de espacios disponibles</label>
+                        <input id="lugares" type="number" name="lugares" placeholder="Numero de lugares" required>
+
+                        <label for="horario">Horario de apertura</label>
+                        <input id="horario" type="time" name="horario" placeholder="2:00pm" required>
+
+                        <label for="horario">Horario de cierre</label>
+                        <input id="horario" type="time" name="horario" placeholder="8:00pm" required>
+
+                        <label for="Correo">Correo</label>
+                        <input id="Correo" type="text" name="Correo" placeholder="Ex: Juan_Perez@gmail.com" required>
+
+                        <label for="Telefono">Numero telefonico</label>
+                        <input id="Telefono" type="text" name="telefono" placeholder="10 digitos" required>
+
+                        <label for="Imagen">Inserte imagen de presentacion</label>
+                        <input id="Imagen" type="file" name="imagen"  required>
+                        
+                        <button type="submit"  title="Ingresar" name="Ingresar" onclick="location.href='/signconf.html'">Sign-Up</button>
+
+
+                        <div class="pie-form"><a href="login_rest.html">Volver al inicio de sesion</a></div>
+
+                       
+                        
+                    </form>
+                    
+                </div>
+               
+            </div>
+        </div>
+        
+    </body>
+</html>
